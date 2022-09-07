@@ -18,7 +18,7 @@ The project has been prepared as a quiz application. When starting the quiz, the
 <li>REACT ROUTER DOM</li>
 <li>REACT CONTEXT</li>
 <li>TYPESCRIPT</li>
-<li>USEREDUCER</li>
+<li>USEREDUCER-USESTATE-USEEFFECT</li>
 <li>CSS</li>
 <li>TOASTIFY JS LIBRARY</li>
 <li>DYNAMIC AXIOS DATA FETCHING</li>
