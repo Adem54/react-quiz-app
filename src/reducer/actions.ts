@@ -1,0 +1,12 @@
+export const SET_LOADING = "LOADING";
+export const SET_DATA = "SUCCESS";
+export const SET_ERROR = "ERROR";
+export const AMOUNT_INPUT="AMOUNT_INPUT";
+export const CATEGORY_OPTION="CATEGORY_OPTION";
+export const DIFFICULTY_OPTION="DIFFICULTY_OPTION";
+export const NEXT_QUESTION="NEXT_QUESTION";
+export const CHECK_ANSWER="CHECK_ANSWER";
+export const OPEN_MODAL="OPEN_MODAL";
+export const CLOSE_MODAL="CLOSE_MODAL";
+export const START_SCRATCH="START_SCRATCH";
+

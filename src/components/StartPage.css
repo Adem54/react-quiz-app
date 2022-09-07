@@ -1,0 +1,93 @@
+h1,p {
+    margin:0;
+  }
+  .main{
+    box-sizing:border-box;
+    padding:3rem 3rem;
+    width:26%;
+    background-color:#ffff;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    text-align:left;
+    border-radius:.2rem;
+  
+  }
+
+  @media only screen and (max-width: 1200px) {
+   
+    .main{
+    width:35%;
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+  
+    .main{
+    width:45%;
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    
+    .main{
+    width:55%;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    
+    .main{
+    width:75%;
+    }
+  }
+  
+  .section {
+    width:100%;
+    margin-top:2rem;
+  }
+  
+  
+  
+  p {
+    font-size:.9rem;
+    font-weight: 500;
+   color:#324d67;
+   letter-spacing: .005rem; 
+   margin-bottom:.6rem;
+  }
+  
+  input,select {
+    border:none;
+    width:100%;
+    outline: none;
+    background-color:#F1F5F8;
+    height:1.7rem;
+    border-radius: .2rem;
+    font-size:1rem;
+    text-indent: .6rem;
+    font-weight:300;
+    
+  }
+  input:active, input:focus {
+    border:2px solid;
+  }
+  .btn {
+    margin-top:3rem;
+    width:100%;
+  border:none;
+  height:1.8rem;
+  border-radius: .3rem;
+  font-size:1rem;
+  font-weight:600;
+  background-color: #ffb100;
+  cursor: pointer;
+  line-height: 1.8rem;
+  
+  }
+
+  .btn>a {
+    text-decoration: none;
+    color:#324d67;
+    
+  }
