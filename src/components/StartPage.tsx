@@ -20,12 +20,12 @@ const StartPage = () => {
   console.log("StartPage component");
   const {
     getQuestions,
-    state,
+    amount_query,
+     isLoading,
     handleAmount,
     handleCategory,
     handleDifficulty,
   } = useGlobalContext();
-  const { amount_query, isLoading } = state;
 
   return (
     <main className="main">

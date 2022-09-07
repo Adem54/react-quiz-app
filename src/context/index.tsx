@@ -14,7 +14,17 @@ export interface rootState {
   handleCloseModal:()=>void;
   checkUserAnswerIsRight: ({question,answer}:{question:string,answer:string}) => void;
   startFromScratch:()=>void;
-  state:State,
+  isLoading: boolean;
+  data: ResponseDataType;
+  error: string;
+  amount_query: number;
+  category_query: number;
+  difficulty_query: string;
+  index: number;
+  currentData: Result;
+  answers: string[];
+  userQuizResults: UserQuizResult[];
+  openModal:boolean;
 }
 
 export interface UserQuizResult {
@@ -62,7 +72,7 @@ export const initialState: State = {
   category_query: 21, //sports
   difficulty_query: "easy",
   index: 0,
-    currentData: {} as Result,
+  currentData: {} as Result,
   answers: [],
   userQuizResults: [],
   openModal:false,
@@ -195,7 +205,7 @@ const handleCloseModal=()=>{
 }
 
   const values = {
-    state,
+    ...state,
     userQuizResults: state.userQuizResults,
     checkUserAnswerIsRight,
     startFromScratch,

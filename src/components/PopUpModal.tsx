@@ -5,8 +5,8 @@ import { useGlobalContext } from '../context';
 const PopUpModal = () => {
 
   const [resultOfPerc,setResultOfPer]=useState<number>(0);
-  const { handleCloseModal,state,startFromScratch } = useGlobalContext();
-  const {openModal,userQuizResults}=state;
+  const { handleCloseModal,openModal,userQuizResults,startFromScratch } = useGlobalContext();
+  
   const [isTabChanged,setIsTabChanged]=useState<boolean>(false);
   useEffect(()=>{
     const followTabChange=()=>{

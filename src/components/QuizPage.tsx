@@ -7,13 +7,6 @@ const QuizPage = () => {
 
   const {
     getQuestions,
-    state,
-    handleNextQuestion,
-    checkUserAnswerIsRight,
-
-    handleOpenModal,
-  } = useGlobalContext();
-  const {
     data,
     index,
     currentData,
@@ -21,7 +14,14 @@ const QuizPage = () => {
     isLoading,
     userQuizResults,
     openModal,
-  } = state;
+    handleNextQuestion,
+    checkUserAnswerIsRight,
+
+    handleOpenModal,
+  } = useGlobalContext();
+ 
+
+  console.log("currentData: ",currentData);
   const { results } = data;
 
   useEffect(() => {
@@ -50,6 +50,7 @@ const QuizPage = () => {
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentAnswer]);
+
 
   if (isLoading) return <Loading />;
 
