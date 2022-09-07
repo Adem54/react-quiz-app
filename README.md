@@ -23,6 +23,7 @@ The project has been prepared as a quiz application. When starting the quiz, the
 <li>TOASTIFY JS LIBRARY</li>
 <li>DYNAMIC AXIOS DATA FETCHING</li>
 <li>POPUP MODAL WITH CSS TRANSITION EFFECT</>
+<li>USAGE OF VISIBILITYCHANGE EVENT HANDLING</li>
  
 </ul>
 
@@ -32,4 +33,27 @@ First of all, go into project folder in your terminal and run command npm instal
 To run the application run npm start run. Our application will use 3000 port and
 following location, if there is no another app in that location.
 https://localhost:3000
+
+#### Typescript
+
+
+  <img width="580" src="https://user-images.githubusercontent.com/48107744/188970608-d8880d11-498c-49cf-a822-c9cb66edb411.png" >
+
+#### React Context
+
+  <img width="580" src="https://user-images.githubusercontent.com/48107744/188971930-106db7e7-ae9d-4518-8843-9f048d6a88a7.png" >
+
+#### React userReducer
+
+  <img width="580" src="https://user-images.githubusercontent.com/48107744/188972186-b6149f07-1bb6-4862-b17c-17987260975b.png" >
+
+#### React-router-dom
+
+  <img width="580" src="https://user-images.githubusercontent.com/48107744/188972903-792a2bf0-b3cc-415c-a05e-92f69f2cdf4f.png" >
+  
+#### Dynamic-axios-fetch
+
+  
+  <img width="580" src="https://user-images.githubusercontent.com/48107744/188973281-9402a57f-000c-45f8-8336-bae1be31bba2.png" >
+
 
