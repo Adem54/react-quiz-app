@@ -22,6 +22,7 @@ The project has been prepared as a quiz application. When starting the quiz, the
 <li>CSS</li>
 <li>TOASTIFY JS LIBRARY</li>
 <li>DYNAMIC AXIOS DATA FETCHING</li>
+<li>POPUP MODAL WITH CSS TRANSITION EFFECT</>
  
 </ul>
 
