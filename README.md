@@ -22,6 +22,9 @@ The project has been prepared as a quiz application. When starting the quiz, the
 <li>CSS</li>
 <li>TOASTIFY JS LIBRARY</li>
 <li>DYNAMIC AXIOS DATA FETCHING</li>
+ 
+</ul>
+
 
 ### How to Install and Run the Project
 First of all, go into project folder in your terminal and run command npm install.
