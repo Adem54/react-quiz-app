@@ -23,7 +23,7 @@ The project has been prepared as a quiz application. When starting the quiz, the
 <li>TOASTIFY JS LIBRARY</li>
 <li>DYNAMIC AXIOS DATA FETCHING</li>
 
-# How to Install and Run the Project
+### How to Install and Run the Project
 First of all, go into project folder in your terminal and run command npm install.
 To run the application run npm start run. Our application will use 3000 port and
 following location, if there is no another app in that location.
