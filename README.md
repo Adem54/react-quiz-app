@@ -30,7 +30,7 @@ The project has been prepared as a quiz application. When starting the quiz, the
 
 ### How to Install and Run the Project
 The project can be cloned or downloaded via github to local pc. And, go into project folder in your terminal and run command npm install.
-Runs the app in the development mode.Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 #### Typescript
 
