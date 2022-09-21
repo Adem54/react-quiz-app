@@ -30,8 +30,7 @@ The project has been prepared as a quiz application. When starting the quiz, the
 
 ### How to Install and Run the Project
 The project can be cloned or downloaded via github to local pc. And, go into project folder in your terminal and run command npm install.
-To run the application run, npm start run. Our application will use 3000 port and following location, if there is no another app in that location.
-https://localhost:3000
+Runs the app in the development mode.Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 #### Typescript
 
