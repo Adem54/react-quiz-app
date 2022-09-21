@@ -1,6 +1,6 @@
 # react-quiz-app
 
-#####  Integreted Development Environment:Visual Studio 2019  
+#####  Integreted Development Environment:Visual Studio Code  
 
 
  
